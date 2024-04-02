@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Algerian';
+    src: url('./style/Algeria/ALGERIA.woff') format('woff2'),  /* WOFF 2.0 */
+  }
+  
+  .font-algerian {
+    font-family: 'Algerian', sans-serif; /* Use 'sans-serif' as fallback font */
+  }
+  
