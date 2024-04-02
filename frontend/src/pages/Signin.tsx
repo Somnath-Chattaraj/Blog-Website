@@ -13,7 +13,7 @@ const Signin = () => {
     async function loginUser(ev: any) {
         ev.preventDefault();
         try {
-            const response = await axios.post(`${BACKEND_URL}/api/v1/user/login`,{
+            const response = await axios.post(`${BACKEND_URL}/api/v1/user/signin`,{
                 username,
                 password
             })
