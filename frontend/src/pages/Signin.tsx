@@ -44,7 +44,7 @@ const Signin = () => {
           <h4 className='pb-2'>Password (atleast 6 characters)</h4>
             <input type="password" name="password" value={password} onChange={(e) => setPassword(e.target.value)}  placeholder='password' className='border-2 border-gray-300 rounded-lg h-10 border-1 bg-transparent pl-4 mb-6' />
             <button className='bg-black text-white h-10 rounded-lg mb-4 hover:bg-gray-600 hover:text-gray-200 transition duration-300 ease-in-out'>
-  Sign Up
+  Sign In
 </button>
 
           
